@@ -1,6 +1,10 @@
+import RadioButton from './components/RadioButton';
+
 function App() {
   return (
-    <h1>Olá Mundo!</h1>
+    <>
+      <RadioButton />
+    </>
   );
 }
 
