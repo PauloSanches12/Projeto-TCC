@@ -15,11 +15,16 @@ const RadioButton = () => {
     setValue(event.target.value);
   };
 
+  const MostrarValor = () => {
+    alert("Você clicou no botão");
+    setValue('')
+  }
+
   return (
-    <Container id="container" maxWidth="md">
-      <FormControl component="fieldset">
+    <Container style={{ backgroundColor: "#FFF", top: 10, position: 'relative', height: 200, borderRadius: 8 }} id="container" maxWidth="md">
+      <FormControl style={{ marginTop: 50 }} component="fieldset">
         <FormLabel component="legend">O Quanto vocé é bom em...</FormLabel>
-        <RadioGroup row  aria-label="gender" name="gender1" value={value} onChange={handleChange}>
+        <RadioGroup row aria-label="gender" name="gender1" value={value} onChange={handleChange}>
           <FormControlLabel value="1" control={<Radio />} label="1" />
           <FormControlLabel value="2" control={<Radio />} label="2" />
           <FormControlLabel value="3" control={<Radio />} label="3" />
@@ -31,7 +36,7 @@ const RadioButton = () => {
           <FormControlLabel value="9" control={<Radio />} label="9" />
           <FormControlLabel value="10" control={<Radio />} label="10" />
         </RadioGroup>
-        <ButtonInput disabled={!value} />
+        <ButtonInput disabled={!value} type="submit" onClick={MostrarValor} />
       </FormControl>
     </Container>
   );

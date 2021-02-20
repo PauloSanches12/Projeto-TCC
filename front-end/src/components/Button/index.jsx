@@ -10,12 +10,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const ButtonInput = ({ disabled }) => {
+const ButtonInput = ({ disabled, type, onClick }) => {
   const classes = useStyles();
 
   return (
     <div id="button" className={classes.root}>
-      <Button disabled={disabled} variant="contained" color="secondary">
+      <Button disabled={disabled} type={type} onClick={onClick} variant="contained" color="secondary">
         Próximo
       </Button>
     </div>
