@@ -1,10 +1,8 @@
-import RadioButton from './components/RadioButton';
+import Form from './components/Form';
 
 function App() {
   return (
-    <>
-      <RadioButton />
-    </>
+      <Form />
   );
 }
 

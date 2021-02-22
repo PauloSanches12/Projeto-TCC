@@ -8,11 +8,11 @@ import Container from '@material-ui/core/Container';
 import ButtonInput from '../Button';
 import './styles.css';
 
-const RadioButton = () => {
+const Form = () => {
   const [value, setValue] = React.useState('');
 
-  const handleChange = (event) => {
-    setValue(event.target.value);
+  const handleChange = ({ target: { value } }) => {
+    setValue(value);
   };
 
   const MostrarValor = () => {
@@ -20,8 +20,11 @@ const RadioButton = () => {
     setValue('')
   }
 
+  console.log(value)
+
   return (
     <Container style={{ backgroundColor: "#FFF", top: 10, position: 'relative', height: 200, borderRadius: 8 }} id="container" maxWidth="md">
+      <FormLabel id="amount" component="legend">1/10</FormLabel>
       <FormControl style={{ marginTop: 50 }} component="fieldset">
         <FormLabel component="legend">O Quanto vocé é bom em...</FormLabel>
         <RadioGroup row aria-label="gender" name="gender1" value={value} onChange={handleChange}>
@@ -42,4 +45,4 @@ const RadioButton = () => {
   );
 }
 
-export default RadioButton;
+export default Form;
