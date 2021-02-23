@@ -1,8 +1,9 @@
 const { Router } = require('express');
-const DataController = require('./controllers/DataController');
+const { index, store } = require('./controllers/DataController');
 
 const routes = Router();
 
-routes.post("/", DataController.store);
+routes.get("/", index);
+routes.post("/", store);
 
 module.exports = routes;

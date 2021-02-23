@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
+const { model, Schema } = require('mongoose');
 
-const DataSchema = new mongoose.Schema({
+const DataSchema = new Schema({
     dados_form: String
 });
 
-module.exports = mongoose.model("Data", DataSchema);
+module.exports = model("Data", DataSchema);

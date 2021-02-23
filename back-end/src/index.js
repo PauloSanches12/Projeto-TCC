@@ -1,9 +1,9 @@
 const express = require('express');
-const mongoose = require('mongoose');
+const { connect } = require('mongoose');
 const routes = require('./routes.js');
-const dotenv = require("dotenv");
+const { config } = require("dotenv");
 
-dotenv.config();
+config();
 
 const app = express();
 
@@ -12,7 +12,7 @@ const DB_PASSWORD = process.env.DB_PASSWORD;
 
 const uri = `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@banco.sooca.mongodb.net/basisgenetic?retryWrites=true&w=majority`;
 
-mongoose.connect(uri, {
+connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
