@@ -10,8 +10,8 @@ module.exports = {
     async store(request, response) {
         const dados_form = request.body;
 
-        const dadosForm = await Data.create(dados_form)
+        const dadosForm = await Data.create(dados_form);
 
-        return response.json(dadosForm);
+        return response.status(201).json(dadosForm);
     }
 }
