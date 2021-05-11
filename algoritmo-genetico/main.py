@@ -1,8 +1,6 @@
 import numpy as np
 import random
 
-# np.random.choice([0, 1], size=(10,), p=[1./3, 2./3])
-
 def individuo(): #Individuo inicial com tamanho 1x40
     individuoInicial = np.random.choice([0], size=(1, 40))
     aleatorio = random.randrange(0, 2)
@@ -16,27 +14,15 @@ def individuo(): #Individuo inicial com tamanho 1x40
 # print("Individuo Inicial", individuo())
 
 def populacao_inicial(): #População de individuos iniciais com valores randômicos, tamanho 10x40
-    # np.arange(0,2)
-    # x = np.random.randint(2, size=(2, 40))
-    x = np.random.choice([0], size=(4, 10))
-    aleatorio = random.randrange(0, 2)
+    populacao = np.random.choice([0], size=(4, 10))
 
-    for i in x:
+    for i in populacao:
+        aleatorio = random.randrange(0, 2)
         a = i[:4]
-        a = random.randrange(0, 2)
-        print("valor de A", a)
-        for y in str(a):
-            print("Valor de Y", y)
-        # if sum(a) == 0:
-        #     d = i[:4]
-        #     print("Lista Inicial 0")
-        #     print("DDD",d)
-        #     print(a)
-        # else:
-        #     print("Lista inicial completa")
-        #     print(a)
-
-    # return x
+        a += aleatorio
+        # print(i)
+        print("valor dos individuos do array", a)
+    # return populacao
 
 print(populacao_inicial())
 
