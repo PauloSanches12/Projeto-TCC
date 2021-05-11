@@ -15,16 +15,7 @@ def individuo(): #Individuo inicial com tamanho 1x40
 
 # print("Individuo Inicial", individuo())
 
-def populacao_inicial(): #População de individuos iniciais com valor 0, tamanho 10x40
-    populacao = np.random.choice([random.randrange(0,2)], size=(10,40))
-    return populacao
-
-# print(populacao_inicial())
-
-# print(random.randrange(0,2)) #gera valor aleatorio 0 e 1
-
-def tridimensional():
-
+def populacao_inicial(): #População de individuos iniciais com valores randômicos, tamanho 10x40
     # np.arange(0,2)
     # x = np.random.randint(2, size=(2, 40))
     x = np.random.choice([0], size=(4, 10))
@@ -47,4 +38,6 @@ def tridimensional():
 
     # return x
 
-print(tridimensional())
+print(populacao_inicial())
+
+# print(random.randrange(0,2)) #gera valor aleatorio 0 e 1
