@@ -47,3 +47,25 @@ export const TextoSecundario = styled.h2`
 export const ParagrafoSecundario = styled.p`
     color: var(--colorText);
 `;
+
+export const Ul = styled.ul`
+    display: flex;
+
+    justify-content: space-evenly;
+`;
+
+export const Li = styled.li`
+    display: flex;
+    text-decoration: none;
+    display: inline;
+    justify-content: space-between;
+`;
+
+export const Button = styled.button`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid var(--top-section);
+  color: var(--colorTextButton);
+  margin: 0.5em 1em;
+  padding: 0.75em 3em;
+`;
