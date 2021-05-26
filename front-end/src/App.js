@@ -1,4 +1,4 @@
-import { Header, Section, Texto, Paragrafo, Container } from "./styles";
+import { Header, Section, Texto, Paragrafo, Container, Conteudo, TextoSecundario, ParagrafoSecundario } from "./styles";
 
 function App() {
   return (
@@ -11,7 +11,10 @@ function App() {
         </Section>
 
         <Container>
-          
+          <Conteudo>
+            <TextoSecundario>Selecione o adjetivo que melhor descreve você!</TextoSecundario>
+            <ParagrafoSecundario>(Mesmo que você se identifique com mais de um, escolha o que mais se encaixa)</ParagrafoSecundario>
+          </Conteudo>
         </Container>
       </>
   );

@@ -31,3 +31,19 @@ export const Container = styled.div`
     padding: 50px;
     margin-top: -190px;
 `;
+
+export const Conteudo = styled.div`
+    background: var(--white);
+    padding: 90px;
+    margin: 0 250px;
+    border-radius: 8px;
+`;
+
+export const TextoSecundario = styled.h2`
+    margin-top: -30px;
+    color: var(--colorText);
+`;
+
+export const ParagrafoSecundario = styled.p`
+    color: var(--colorText);
+`;
