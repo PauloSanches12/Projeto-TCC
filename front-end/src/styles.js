@@ -25,4 +25,9 @@ export const Paragrafo = styled.p`
     justify-content: center;
     text-align: center; 
     color: var(--white);
-`; 
+`;
+
+export const Container = styled.div`
+    padding: 50px;
+    margin-top: -190px;
+`;

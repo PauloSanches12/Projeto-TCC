@@ -1,4 +1,4 @@
-import { Header, Section, Texto, Paragrafo } from "./styles";
+import { Header, Section, Texto, Paragrafo, Container } from "./styles";
 
 function App() {
   return (
@@ -9,6 +9,10 @@ function App() {
             <Paragrafo>Avaliação de Perfil Comportamental</Paragrafo>
           </Header>
         </Section>
+
+        <Container>
+          
+        </Container>
       </>
   );
 }
