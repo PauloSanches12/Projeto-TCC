@@ -1,7 +1,10 @@
+import { Section } from "./styles";
 
 function App() {
   return (
-      <h1>Ola mundo</h1>
+      <>
+        <Section />
+      </>
   );
 }
 
