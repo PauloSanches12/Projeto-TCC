@@ -96,7 +96,7 @@ function Login() {
             variant="contained"
             color="primary"
             className={classes.submit}
-            disabled={name.length > 0 && email.length > 0 ? "" : "disabled"}
+            disabled={name.length > 0 && email.length > 0 ? false : true}
           >
             Próximo
           </Button>
