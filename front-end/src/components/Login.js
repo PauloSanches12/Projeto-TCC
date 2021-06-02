@@ -36,17 +36,21 @@ function Login() {
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  
-  
 
   function nextPage(e) {
     e.preventDefault();
 
-    history.push('/Questionario');
-    console.log(name);
-    console.log(email);
+    try {
+      localStorage.setItem('nameUser', name)
+      localStorage.setItem('emailUser', email)
+
+      history.push('/Questionario');
+
+    } catch (err) {
+      alert('Falha na operação, tente novamente');
+    }
   }
-  
+
 
   return (
     <Container component="main" maxWidth="xs">
@@ -59,7 +63,7 @@ function Login() {
           Preencha os campos para prosseguir!
         </Typography>
         <form className={classes.form} onSubmit={nextPage} noValidate>
-        <TextField
+          <TextField
             variant="outlined"
             margin="normal"
             required
@@ -69,7 +73,7 @@ function Login() {
             type="text"
             id="nome"
             value={name}
-            onChange={(e) => {setName(e.target.value)}}
+            onChange={(e) => { setName(e.target.value) }}
           />
           <TextField
             variant="outlined"
@@ -82,18 +86,21 @@ function Login() {
             autoComplete="email"
             autoFocus
             value={email}
-            onChange={(e) => {setEmail(e.target.value)}}
+            onChange={(e) => { setEmail(e.target.value) }}
           />
 
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
-              Próximo
-            </Button>
+          <Button
+            id="buttonId"
+            type="submit"
+            fullWidth
+            variant="contained"
+            color="primary"
+            className={classes.submit}
+            disabled={name.length > 0 && email.length > 0 ? "" : "disabled"}
+          >
+            Próximo
+          </Button>
+
         </form>
       </div>
     </Container>
