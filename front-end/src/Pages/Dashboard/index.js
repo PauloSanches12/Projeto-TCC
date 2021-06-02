@@ -1,3 +1,4 @@
+import ColumnCharts from "../../components/ColumnCharts";
 import DataTable from "../../components/DataTable";
 import DonutChart from "../../components/DonutChart";
 
@@ -8,8 +9,8 @@ function Dashboard() {
         <h1 className="text-primary py-3"> Dashboard de Candidatos </h1>
         <div className="row px-3">
           <div className="col-sm-6">
-            <h5 className="text-center text-secondary">Perfil do Candidato (%)</h5>
-
+            <h5 className="text-center text-secondary">Perfil dos Candidatos (%)</h5>
+              <ColumnCharts />
           </div>
           <div className="col-sm-6">
             <h5 className="text-center text-secondary">Perfil Ideal</h5>
