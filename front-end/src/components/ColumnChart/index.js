@@ -1,6 +1,6 @@
 import ReactApexChart  from 'react-apexcharts';
 
-function ColumnCharts() {
+function ColumnChart() {
   const mokData = {
 
     series: [{
@@ -66,4 +66,4 @@ function ColumnCharts() {
   );
 }
 
-export default ColumnCharts;
+export default ColumnChart;
