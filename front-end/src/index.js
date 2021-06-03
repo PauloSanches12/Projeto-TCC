@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import GlobalStyles from './GlobalStyles';
+import GlobalStyles from './Styles/GlobalStyles';
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
