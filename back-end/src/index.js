@@ -2,6 +2,7 @@ const express = require('express');
 const { connect } = require('mongoose');
 const routes = require('./routes.js');
 const { config } = require("dotenv");
+const cors = require('cors');
 
 config();
 
@@ -17,6 +18,7 @@ connect(uri, {
     useUnifiedTopology: true
 })
 
+app.use(cors());
 app.use(express.json());
 app.use(routes);
 

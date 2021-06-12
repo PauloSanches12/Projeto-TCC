@@ -2,7 +2,7 @@ const Questionnaire = require("../models/Questionnaire");
 
 module.exports = {
     async index(request, response) {
-        const allQuestionnaires = await Questionnaire.findAll();
+        const allQuestionnaires = await Questionnaire.find();
 
         return response.json(allQuestionnaires);
     },

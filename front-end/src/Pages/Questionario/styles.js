@@ -50,14 +50,11 @@ export const ParagrafoSecundario = styled.p`
 
 export const Ul = styled.ul`
     display: flex;
-
     justify-content: space-evenly;
 `;
 
 export const Li = styled.li`
     display: flex;
-    text-decoration: none;
-    display: inline;
     justify-content: space-between;
 `;
 
@@ -67,5 +64,5 @@ export const Button = styled.button`
   border: 2px solid var(--top-section);
   color: var(--colorTextButton);
   margin: 0.5em 1em;
-  padding: 0.75em 3em;
+  padding: 0.75em 2em;
 `;

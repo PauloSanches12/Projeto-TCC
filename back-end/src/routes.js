@@ -5,6 +5,7 @@ const dadosCandidatos = require('./controllers/DataCandidateController');
 const routes = Router();
 
 routes.post("/questionnaires", questionario.store);
+routes.get("/questionnaires", questionario.index);
 routes.post("/dataCandidates", dadosCandidatos.store);
 
 module.exports = routes;
