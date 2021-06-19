@@ -1,66 +1,29 @@
-[
+{
+  "quiz": [
     {
-        "name": "Paulo",
-        "email": "paulo@paulo.com",
-        "dominancia": 50,
-        "influencia": 30,
-        "estabilidade": 40,
-        "conformidade": 20
-    },
-    {
-        "name": "Julio",
-        "email": "julio@julio.com",
-        "dominancia": 50,
-        "influencia": 30,
-        "estabilidade": 40,
-        "conformidade": 20
-    },
-    {
-        "name": "Edmundo",
-        "email": "edmundo@edmundo.com",
-        "dominancia": 50,
-        "influencia": 30,
-        "estabilidade": 40,
-        "conformidade": 20
-    },
-    {
-        "name": "Pedro",
-        "email": "pedro@pedro.com",
-        "dominancia": 50,
-        "influencia": 30,
-        "estabilidade": 40,
-        "conformidade": 20
-    },
-    {
-        "name": "Andre",
-        "email": "andre@andre.com",
-        "dominancia": 50,
-        "influencia": 30,
-        "estabilidade": 40,
-        "conformidade": 20
-    },
-    {
-        "name": "Lucas",
-        "email": "lucas@lucas.com",
-        "dominancia": 50,
-        "influencia": 30,
-        "estabilidade": 40,
-        "conformidade": 20
-    },
-    {
-        "name": "João",
-        "email": "joao@joao.com",
-        "dominancia": 50,
-        "influencia": 30,
-        "estabilidade": 40,
-        "conformidade": 20
-    },
-    {
-        "name": "Ze",
-        "email": "ze@ze.com",
-        "dominancia": 50,
-        "influencia": 30,
-        "estabilidade": 40,
-        "conformidade": 20
+      "questionName": "Questao 1",
+      "alternative": [
+        {
+          "label": "Sociável",
+          "isSelected": false,
+          "isResult": false
+        },
+        {
+          "label": "Convincente",
+          "isSelected": false,
+          "isResult": false
+        },
+        {
+          "label": "Competitivo",
+          "isSelected": false,
+          "isResult": false
+        },
+        {
+          "label": "Submisso",
+          "isSelected": false,
+          "isResult": false
+        }
+      ]
     }
-]
+  ]
+}

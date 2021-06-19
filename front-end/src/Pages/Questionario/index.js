@@ -4,31 +4,23 @@ import { useState, useEffect } from "react";
 import api from '../../services/api';
 
 function Questionario() {
+  const [questoesSelecionadas, setQuestoesSelecionadas] = useState([])
+  const [questoes, setQuestoes] = useState('');
 
-  const [questoes, setQuestoes] = useState(0);
-  const [listQuestionnaire, setListQuestionnaire] = useState([]);
+  // useEffect(() => {
+  //   api.get('questionnaires').then(result => {
+  //     const response = result.data;
+  //     const [quizSelected, a, b, c] = response[0].quiz;
+  //     setQuestoes(response[0].quiz);
+  //     setQuestoesSelecionadas([quizSelected, a, b, c])
+  //   });
 
-  function handleAnswerButtonClick() {
-    const tamanhoObjeto = Object.keys(setListQuestionnaire).length;
-    const proximaQuestao = questoes + 1;
+  // }, []);
 
-    if (proximaQuestao < tamanhoObjeto) {
-      setQuestoes(proximaQuestao);
-    } else {
-      alert("Fim")
-    }
+  function handleClick() {
+
   }
-  
 
-  useEffect(() =>{
-    async function loadQuestionnaire(){
-      const response = await api.get('/questionnaires');
-      setListQuestionnaire(response.data);
-    }
-
-    loadQuestionnaire();
-  }, []);
-  // console.log(listQuestionnaire);
   return (
     <>
       <Section>
@@ -37,6 +29,7 @@ function Questionario() {
           <Paragrafo>Avaliação de Perfil Comportamental</Paragrafo>
         </Header>
       </Section>
+      <span>Questão {setQuestoes.length} </span>/{questoes.length / 4}
       <Container>
         <Conteudo>
           <TextoSecundario>Selecione o adjetivo que melhor descreve você!</TextoSecundario>
@@ -45,21 +38,16 @@ function Questionario() {
 
           <Ul>
             <Li>
-              <Button>Proximo</Button>
-              <Button>Proximo</Button>
-              <Button>Proximo</Button>
-              <Button>Proximo</Button>
+
+              {/* {
+                questoesSelecionadas.map((q, index) => (
+                  <Button onClick={handleClick} key={index}>{q}</Button>
+                ))
+              } */}
             </Li>
-
-            {/* {
-              questionarioq.quiz.map((data) => (
-                <Li key={questionarioq.quiz}>
-                  <Button onClick={handleAnswerButtonClick}>{data.replace(',', ' ').replace(', ', ' ')}</Button>
-                </Li>
-
-              ))
-            } */}
           </Ul>
+
+
         </Conteudo>
       </Container>
     </>
