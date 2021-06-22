@@ -1,18 +1,18 @@
 const { model, Schema } = require('mongoose');
 
-const QuestionnaireSchema = new Schema({
+const questionnaireSchema = new Schema({
     label: String,
     isSelected: Boolean,
     isResult: Boolean
 });
 
-const QuizSchema = new Schema({
+const quizSchema = new Schema({
     questionName: String,
-    alternative: [QuestionnaireSchema]
+    alternative: [questionnaireSchema]
 })
 
 const schema = new Schema({
-    quiz: [QuizSchema]
+    quiz: [quizSchema]
 });
 
 module.exports = model("Questionnaire", schema);

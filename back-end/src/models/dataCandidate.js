@@ -1,10 +1,19 @@
 const { model, Schema } = require('mongoose');
 
-const dataCandidateSchema = new Schema({
-    name: String,
+const QuestionnaireCandidate = new Schema({
+    label: String,
+    isSelected: Boolean
+});
+
+const dataCandidate = new Schema({
+    inscrito: String,
     email: String,
-    quizCandidates: [String],
+    alternative: [QuestionnaireCandidate]
+});
+
+const candidateSchema = new Schema({
+    quizCandidates: [dataCandidate],
     date: { type: Date, default: Date.now },
 });
 
-module.exports = model("dataCandidate", dataCandidateSchema);
+module.exports = model("dataCandidate", candidateSchema);
