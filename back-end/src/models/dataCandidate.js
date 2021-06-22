@@ -1,6 +1,6 @@
 const { model, Schema } = require('mongoose');
 
-const QuestionnaireCandidate = new Schema({
+const questionnaireCandidate = new Schema({
     label: String,
     isSelected: Boolean
 });
@@ -8,7 +8,7 @@ const QuestionnaireCandidate = new Schema({
 const dataCandidate = new Schema({
     inscrito: String,
     email: String,
-    alternative: [QuestionnaireCandidate]
+    alternative: [questionnaireCandidate]
 });
 
 const candidateSchema = new Schema({
