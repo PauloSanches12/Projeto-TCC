@@ -19,6 +19,7 @@ import api from '../../services/api';
 function Questionario() {
   const [questoesSelecionadas, setQuestoesSelecionadas] = useState([])
   const [questoes, setQuestoes] = useState('');
+  const [proximaQuestao, setProximaQuestao] = useState(0);
 
   // console.log(dados.quiz[0].alternative[0].label);
   // console.log(questoesSelecionadas);
@@ -34,7 +35,11 @@ function Questionario() {
   }, []);
 
   function handleClick() {
-
+    const proxima = proximaQuestao + 1;
+    if (proxima < questoes.length) {
+      setProximaQuestao(proxima);
+      console.log(proxima)
+    }
   }
 
   return (
@@ -46,7 +51,7 @@ function Questionario() {
         </Header>
       </Section>
       <Container>
-        <Span>Questão {setQuestoes.length}/{questoes.length}</Span>
+        <Span>Questão {proximaQuestao + 1}/{questoes.length}</Span>
         <Conteudo>
           <TextoSecundario>Selecione o adjetivo que melhor descreve você!</TextoSecundario>
           <ParagrafoSecundario>(Mesmo que você se identifique com mais de um, escolha o que mais se encaixa)</ParagrafoSecundario>
@@ -56,8 +61,8 @@ function Questionario() {
             <Li>
 
               {
-                questoesSelecionadas.map(x => (
-                  <Button> {x.alternative[0].label}</Button>
+                questoesSelecionadas.map((x, index) => (
+                  <Button key={index} onClick={() => handleClick()}> {x.alternative[0].label}</Button>
                 ))
               }
 
