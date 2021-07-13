@@ -66,3 +66,14 @@ export const Button = styled.button`
   margin: 0.5em 1em;
   padding: 0.75em 2em;
 `;
+
+export const Span = styled.span`
+    color: var(--colorText);
+    display: flex;
+    align-items: center;
+    justify-content: flex-flex-start;
+    text-align: center;
+    position: relative;
+    margin-left: 260px;
+    top: 28px
+`;

@@ -5,23 +5,19 @@
       "alternative": [
         {
           "label": "Sociável",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Atencioso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Controlado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Energético",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -30,23 +26,19 @@
       "alternative": [
         {
           "label": "Convincente",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Competitivo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Doador",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Submisso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -55,23 +47,19 @@
       "alternative": [
         {
           "label": "Estimulante",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Respeitoso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Reservado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Habilidoso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -80,23 +68,19 @@
       "alternative": [
         {
           "label": "Sensível",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Autossuficiente",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Satisfeito",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Espirituoso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -105,23 +89,19 @@
       "alternative": [
         {
           "label": "Planejador",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Positivo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Paciente",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Charmoso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -130,23 +110,19 @@
       "alternative": [
         {
           "label": "Seguro",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Espontâneo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Organizado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Tímido",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -155,23 +131,19 @@
       "alternative": [
         {
           "label": "Franco",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Ordeiro",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Otimista",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Serviçal",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -180,23 +152,19 @@
       "alternative": [
         {
           "label": "Fiel",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Vigoroso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Engraçado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Amigável",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -205,23 +173,19 @@
       "alternative": [
         {
           "label": "Encantador",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Diplomático",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Audacioso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Minucioso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -230,23 +194,19 @@
       "alternative": [
         {
           "label": "Alegre",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Culto",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Confiante",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Previsível",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -255,23 +215,19 @@
       "alternative": [
         {
           "label": "Independente",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Inspirado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Idealista",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Inofensivo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -280,23 +236,19 @@
       "alternative": [
         {
           "label": "Decidido",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Profundo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Irônico",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Demonstrativo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -305,23 +257,19 @@
       "alternative": [
         {
           "label": "Ativo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Musical",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Mediador",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Desembaraçado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -330,23 +278,19 @@
       "alternative": [
         {
           "label": "Tolerante",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Conversador",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Pensativo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Firme",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -355,23 +299,19 @@
       "alternative": [
         {
           "label": "Leal",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Líder",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Ouvinte",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Ativo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -380,23 +320,19 @@
       "alternative": [
         {
           "label": "Detalhista",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Chefe",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Contente",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Atraente",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -405,23 +341,19 @@
       "alternative": [
         {
           "label": "Agradável",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Perfeccionista",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Produtivo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Popular",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -430,23 +362,19 @@
       "alternative": [
         {
           "label": "Vivaz",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Equilibrado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Comportado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Valente",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -455,23 +383,19 @@
       "alternative": [
         {
           "label": "Metido",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Autoritário",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Acanhado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Tranquilo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -480,23 +404,19 @@
       "alternative": [
         {
           "label": "Rancoroso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Desinteressado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Indisciplinado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Insensível",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -505,23 +425,19 @@
       "alternative": [
         {
           "label": "Repetitivo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Ressentido",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Relutante",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Inflexível",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -530,23 +446,19 @@
       "alternative": [
         {
           "label": "Medroso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Complicado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Esquecido",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Mandão",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -555,23 +467,19 @@
       "alternative": [
         {
           "label": "Inseguro",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Impaciente",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Indeciso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Inoportuno",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -580,23 +488,19 @@
       "alternative": [
         {
           "label": "Desligado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Impopular",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Imprevisível",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Frio",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -605,23 +509,19 @@
       "alternative": [
         {
           "label": "Cabeça dura",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Insatisfeito",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Casual",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Hesitante",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -630,23 +530,19 @@
       "alternative": [
         {
           "label": "Cauteloso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Simples",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Orgulhoso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Permissivo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -655,23 +551,19 @@
       "alternative": [
         {
           "label": "Discutidor",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Incerto",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Esquentado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Alienado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -680,23 +572,19 @@
       "alternative": [
         {
           "label": "Ingênuo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Ousado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Negativo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Indiferente",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -705,23 +593,19 @@
       "alternative": [
         {
           "label": "Retraído",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Preocupado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Trabalhador",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Egoísta",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -730,23 +614,19 @@
       "alternative": [
         {
           "label": "Receoso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Tagarela",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Indelicado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Receptivo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -755,23 +635,19 @@
       "alternative": [
         {
           "label": "Mandão",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Confuso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Deprimido",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Desorganizado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -780,23 +656,19 @@
       "alternative": [
         {
           "label": "Inconstante",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Intolerante",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Apático",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Introvertido",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -805,23 +677,19 @@
       "alternative": [
         {
           "label": "Triste",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Desorganizado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Resmungão",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Manipulador",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -830,23 +698,19 @@
       "alternative": [
         {
           "label": "Convencido",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Obstinado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Lento",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Cético",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -855,23 +719,19 @@
       "alternative": [
         {
           "label": "Tirânico",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Solitário",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Preguiçoso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Barulhento",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -880,23 +740,19 @@
       "alternative": [
         {
           "label": "Desconfiado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Irritável",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Vagaroso",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Distraído",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -905,23 +761,19 @@
       "alternative": [
         {
           "label": "Vingativo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Relutante",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Agitado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Imprudente",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -930,23 +782,19 @@
       "alternative": [
         {
           "label": "Crítico",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Instável",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Acomodado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Astuto",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -955,23 +803,19 @@
       "alternative": [
         {
           "label": "Adaptável",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Analítico",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Animado",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Aventureiro",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     },
@@ -980,23 +824,19 @@
       "alternative": [
         {
           "label": "Persuasivo",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Brincalhão",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Persistente",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         },
         {
           "label": "Sereno",
-          "isSelected": false,
-          "isResult": false
+          "isSelected": false
         }
       ]
     }

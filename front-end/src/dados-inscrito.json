@@ -1,0 +1,26 @@
+{
+  "quizCandidato": [
+    {
+      "inscrito": "Paulo Sérgio",
+      "email": "paulo@paulo.com",
+      "alternative": [
+        {
+          "label": "Sociável",
+          "isSelected": false
+        },
+        {
+          "label": "Atencioso",
+          "isSelected": false
+        },
+        {
+          "label": "Controlado",
+          "isSelected": false
+        },
+        {
+          "label": "Energético",
+          "isSelected": false
+        }
+      ]
+    }
+  ]
+}
