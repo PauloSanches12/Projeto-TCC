@@ -8,11 +8,11 @@ function Routes() {
         <BrowserRouter>
             <Switch>
                 <Route path="/" component={Login} exact />
-                <Route path="/Questionario" component={Questionario} />
-                <Route path="/Dashboard" component={Dashboard} />
+                <Route path="/questionario" component={Questionario} />
+                <Route path="/dashboard" component={Dashboard} />
             </Switch>
         </BrowserRouter>
     );
-  }
-  
-  export default Routes;
+}
+
+export default Routes;

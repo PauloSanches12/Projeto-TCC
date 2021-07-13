@@ -54,36 +54,12 @@ function Questionario() {
 
           <Ul>
             <Li>
+
               {
-                typeof questoesSelecionadas == 'object' ? (
-
-                  questoesSelecionadas.map(x => {
-                    x.alternative.forEach(y => (
-                      console.log(y)
-                    ))
-                    // Object.values(x).forEach(y => (
-                    //   console.log(y)
-                    // ))
-                  })
-                )
-                  :
-                  console.log("nao")
-              }
-              {
-              }
-
-              {/* {
-                questoesSelecionadas.map((q, index) => (
-                  <Button onClick={handleClick} key={index}>{q.alternative}</Button>
-
+                questoesSelecionadas.map(x => (
+                  <Button> {x.alternative[0].label}</Button>
                 ))
-              } */}
-
-              {/* <Button onClick={handleClick} key={index}>{q[alternative].label}</Button> */}
-              <Button > aqui</Button>
-              <Button>aqui</Button>
-              <Button>aqui</Button>
-              <Button>aqui</Button>
+              }
 
             </Li>
           </Ul>
