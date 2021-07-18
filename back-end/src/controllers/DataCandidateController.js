@@ -2,7 +2,7 @@ const dataCandidate = require("../models/dataCandidate");
 
 module.exports = {
     async index(request, response) {
-        const AllDataCandidate = await dataCandidate.findAll();
+        const AllDataCandidate = await dataCandidate.find();
 
         return response.json(AllDataCandidate);
     },

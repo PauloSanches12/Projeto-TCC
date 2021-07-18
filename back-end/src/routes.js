@@ -6,6 +6,8 @@ const routes = Router();
 
 routes.post("/questionnaires", questionario.store);
 routes.get("/questionnaires", questionario.index);
+
 routes.post("/dataCandidates", dadosCandidatos.store);
+routes.get("/dataCandidates", dadosCandidatos.index);
 
 module.exports = routes;
