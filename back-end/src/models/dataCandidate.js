@@ -6,12 +6,12 @@ const questionnaireCandidate = new Schema({
 });
 
 const dataCandidate = new Schema({
-    inscrito: String,
-    email: String,
     alternative: [questionnaireCandidate]
 });
 
 const candidateSchema = new Schema({
+    inscrito: String,
+    email: String,
     quizCandidates: [dataCandidate],
     date: { type: Date, default: Date.now },
 });
