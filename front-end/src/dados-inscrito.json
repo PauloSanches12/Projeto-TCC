@@ -1,8 +1,9 @@
 {
-  "quizCandidato": [
+  "inscrito": "Paulo Sérgio",
+  "email": "paulo@paulo.com",
+  "quizCandidates": [
     {
-      "inscrito": "Paulo Sérgio",
-      "email": "paulo@paulo.com",
+      "questionName": "Questao 1",
       "alternative": [
         {
           "label": "Sociável",
@@ -10,7 +11,7 @@
         },
         {
           "label": "Atencioso",
-          "isSelected": false
+          "isSelected": true
         },
         {
           "label": "Controlado",
@@ -18,6 +19,825 @@
         },
         {
           "label": "Energético",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 2",
+      "alternative": [
+        {
+          "label": "Convincente",
+          "isSelected": true
+        },
+        {
+          "label": "Competitivo",
+          "isSelected": false
+        },
+        {
+          "label": "Doador",
+          "isSelected": false
+        },
+        {
+          "label": "Submisso",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 3",
+      "alternative": [
+        {
+          "label": "Estimulante",
+          "isSelected": false
+        },
+        {
+          "label": "Respeitoso",
+          "isSelected": false
+        },
+        {
+          "label": "Reservado",
+          "isSelected": false
+        },
+        {
+          "label": "Habilidoso",
+          "isSelected": true
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 4",
+      "alternative": [
+        {
+          "label": "Sensível",
+          "isSelected": false
+        },
+        {
+          "label": "Autossuficiente",
+          "isSelected": true
+        },
+        {
+          "label": "Satisfeito",
+          "isSelected": false
+        },
+        {
+          "label": "Espirituoso",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 5",
+      "alternative": [
+        {
+          "label": "Planejador",
+          "isSelected": false
+        },
+        {
+          "label": "Positivo",
+          "isSelected": true
+        },
+        {
+          "label": "Paciente",
+          "isSelected": false
+        },
+        {
+          "label": "Charmoso",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 6",
+      "alternative": [
+        {
+          "label": "Seguro",
+          "isSelected": false
+        },
+        {
+          "label": "Espontâneo",
+          "isSelected": false
+        },
+        {
+          "label": "Organizado",
+          "isSelected": true
+        },
+        {
+          "label": "Tímido",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 7",
+      "alternative": [
+        {
+          "label": "Franco",
+          "isSelected": false
+        },
+        {
+          "label": "Ordeiro",
+          "isSelected": false
+        },
+        {
+          "label": "Otimista",
+          "isSelected": true
+        },
+        {
+          "label": "Serviçal",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 8",
+      "alternative": [
+        {
+          "label": "Fiel",
+          "isSelected": false
+        },
+        {
+          "label": "Vigoroso",
+          "isSelected": false
+        },
+        {
+          "label": "Engraçado",
+          "isSelected": false
+        },
+        {
+          "label": "Amigável",
+          "isSelected": true
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 9",
+      "alternative": [
+        {
+          "label": "Encantador",
+          "isSelected": false
+        },
+        {
+          "label": "Diplomático",
+          "isSelected": false
+        },
+        {
+          "label": "Audacioso",
+          "isSelected": true
+        },
+        {
+          "label": "Minucioso",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 10",
+      "alternative": [
+        {
+          "label": "Alegre",
+          "isSelected": false
+        },
+        {
+          "label": "Culto",
+          "isSelected": false
+        },
+        {
+          "label": "Confiante",
+          "isSelected": true
+        },
+        {
+          "label": "Previsível",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 11",
+      "alternative": [
+        {
+          "label": "Independente",
+          "isSelected": false
+        },
+        {
+          "label": "Inspirado",
+          "isSelected": true
+        },
+        {
+          "label": "Idealista",
+          "isSelected": false
+        },
+        {
+          "label": "Inofensivo",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 12",
+      "alternative": [
+        {
+          "label": "Decidido",
+          "isSelected": true
+        },
+        {
+          "label": "Profundo",
+          "isSelected": false
+        },
+        {
+          "label": "Irônico",
+          "isSelected": false
+        },
+        {
+          "label": "Demonstrativo",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 13",
+      "alternative": [
+        {
+          "label": "Ativo",
+          "isSelected": false
+        },
+        {
+          "label": "Musical",
+          "isSelected": false
+        },
+        {
+          "label": "Mediador",
+          "isSelected": true
+        },
+        {
+          "label": "Desembaraçado",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 14",
+      "alternative": [
+        {
+          "label": "Tolerante",
+          "isSelected": false
+        },
+        {
+          "label": "Conversador",
+          "isSelected": false
+        },
+        {
+          "label": "Pensativo",
+          "isSelected": true
+        },
+        {
+          "label": "Firme",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 15",
+      "alternative": [
+        {
+          "label": "Leal",
+          "isSelected": false
+        },
+        {
+          "label": "Líder",
+          "isSelected": false
+        },
+        {
+          "label": "Ouvinte",
+          "isSelected": true
+        },
+        {
+          "label": "Ativo",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 16",
+      "alternative": [
+        {
+          "label": "Detalhista",
+          "isSelected": true
+        },
+        {
+          "label": "Chefe",
+          "isSelected": false
+        },
+        {
+          "label": "Contente",
+          "isSelected": false
+        },
+        {
+          "label": "Atraente",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 17",
+      "alternative": [
+        {
+          "label": "Agradável",
+          "isSelected": false
+        },
+        {
+          "label": "Perfeccionista",
+          "isSelected": true
+        },
+        {
+          "label": "Produtivo",
+          "isSelected": false
+        },
+        {
+          "label": "Popular",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 18",
+      "alternative": [
+        {
+          "label": "Vivaz",
+          "isSelected": false
+        },
+        {
+          "label": "Equilibrado",
+          "isSelected": true
+        },
+        {
+          "label": "Comportado",
+          "isSelected": false
+        },
+        {
+          "label": "Valente",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 19",
+      "alternative": [
+        {
+          "label": "Metido",
+          "isSelected": false
+        },
+        {
+          "label": "Autoritário",
+          "isSelected": false
+        },
+        {
+          "label": "Acanhado",
+          "isSelected": false
+        },
+        {
+          "label": "Tranquilo",
+          "isSelected": true
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 20",
+      "alternative": [
+        {
+          "label": "Rancoroso",
+          "isSelected": false
+        },
+        {
+          "label": "Desinteressado",
+          "isSelected": false
+        },
+        {
+          "label": "Indisciplinado",
+          "isSelected": false
+        },
+        {
+          "label": "Insensível",
+          "isSelected": true
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 21",
+      "alternative": [
+        {
+          "label": "Repetitivo",
+          "isSelected": false
+        },
+        {
+          "label": "Ressentido",
+          "isSelected": false
+        },
+        {
+          "label": "Relutante",
+          "isSelected": true
+        },
+        {
+          "label": "Inflexível",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 22",
+      "alternative": [
+        {
+          "label": "Medroso",
+          "isSelected": false
+        },
+        {
+          "label": "Complicado",
+          "isSelected": true
+        },
+        {
+          "label": "Esquecido",
+          "isSelected": false
+        },
+        {
+          "label": "Mandão",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 23",
+      "alternative": [
+        {
+          "label": "Inseguro",
+          "isSelected": false
+        },
+        {
+          "label": "Impaciente",
+          "isSelected": true
+        },
+        {
+          "label": "Indeciso",
+          "isSelected": false
+        },
+        {
+          "label": "Inoportuno",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 24",
+      "alternative": [
+        {
+          "label": "Desligado",
+          "isSelected": false
+        },
+        {
+          "label": "Impopular",
+          "isSelected": false
+        },
+        {
+          "label": "Imprevisível",
+          "isSelected": false
+        },
+        {
+          "label": "Frio",
+          "isSelected": true
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 25",
+      "alternative": [
+        {
+          "label": "Cabeça dura",
+          "isSelected": false
+        },
+        {
+          "label": "Insatisfeito",
+          "isSelected": false
+        },
+        {
+          "label": "Casual",
+          "isSelected": true
+        },
+        {
+          "label": "Hesitante",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 26",
+      "alternative": [
+        {
+          "label": "Cauteloso",
+          "isSelected": true
+        },
+        {
+          "label": "Simples",
+          "isSelected": false
+        },
+        {
+          "label": "Orgulhoso",
+          "isSelected": false
+        },
+        {
+          "label": "Permissivo",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 27",
+      "alternative": [
+        {
+          "label": "Discutidor",
+          "isSelected": true
+        },
+        {
+          "label": "Incerto",
+          "isSelected": false
+        },
+        {
+          "label": "Esquentado",
+          "isSelected": false
+        },
+        {
+          "label": "Alienado",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 28",
+      "alternative": [
+        {
+          "label": "Ingênuo",
+          "isSelected": false
+        },
+        {
+          "label": "Ousado",
+          "isSelected": true
+        },
+        {
+          "label": "Negativo",
+          "isSelected": false
+        },
+        {
+          "label": "Indiferente",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 29",
+      "alternative": [
+        {
+          "label": "Retraído",
+          "isSelected": true
+        },
+        {
+          "label": "Preocupado",
+          "isSelected": false
+        },
+        {
+          "label": "Trabalhador",
+          "isSelected": false
+        },
+        {
+          "label": "Egoísta",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 30",
+      "alternative": [
+        {
+          "label": "Receoso",
+          "isSelected": true
+        },
+        {
+          "label": "Tagarela",
+          "isSelected": false
+        },
+        {
+          "label": "Indelicado",
+          "isSelected": false
+        },
+        {
+          "label": "Receptivo",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 31",
+      "alternative": [
+        {
+          "label": "Mandão",
+          "isSelected": true
+        },
+        {
+          "label": "Confuso",
+          "isSelected": false
+        },
+        {
+          "label": "Deprimido",
+          "isSelected": false
+        },
+        {
+          "label": "Desorganizado",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 32",
+      "alternative": [
+        {
+          "label": "Inconstante",
+          "isSelected": false
+        },
+        {
+          "label": "Intolerante",
+          "isSelected": false
+        },
+        {
+          "label": "Apático",
+          "isSelected": true
+        },
+        {
+          "label": "Introvertido",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 33",
+      "alternative": [
+        {
+          "label": "Triste",
+          "isSelected": false
+        },
+        {
+          "label": "Desorganizado",
+          "isSelected": false
+        },
+        {
+          "label": "Resmungão",
+          "isSelected": false
+        },
+        {
+          "label": "Manipulador",
+          "isSelected": true
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 34",
+      "alternative": [
+        {
+          "label": "Convencido",
+          "isSelected": true
+        },
+        {
+          "label": "Obstinado",
+          "isSelected": false
+        },
+        {
+          "label": "Lento",
+          "isSelected": false
+        },
+        {
+          "label": "Cético",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 35",
+      "alternative": [
+        {
+          "label": "Tirânico",
+          "isSelected": false
+        },
+        {
+          "label": "Solitário",
+          "isSelected": true
+        },
+        {
+          "label": "Preguiçoso",
+          "isSelected": false
+        },
+        {
+          "label": "Barulhento",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 36",
+      "alternative": [
+        {
+          "label": "Desconfiado",
+          "isSelected": false
+        },
+        {
+          "label": "Irritável",
+          "isSelected": false
+        },
+        {
+          "label": "Vagaroso",
+          "isSelected": true
+        },
+        {
+          "label": "Distraído",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 37",
+      "alternative": [
+        {
+          "label": "Vingativo",
+          "isSelected": false
+        },
+        {
+          "label": "Relutante",
+          "isSelected": true
+        },
+        {
+          "label": "Agitado",
+          "isSelected": false
+        },
+        {
+          "label": "Imprudente",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 38",
+      "alternative": [
+        {
+          "label": "Crítico",
+          "isSelected": true
+        },
+        {
+          "label": "Instável",
+          "isSelected": false
+        },
+        {
+          "label": "Acomodado",
+          "isSelected": false
+        },
+        {
+          "label": "Astuto",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 39",
+      "alternative": [
+        {
+          "label": "Adaptável",
+          "isSelected": false
+        },
+        {
+          "label": "Analítico",
+          "isSelected": true
+        },
+        {
+          "label": "Animado",
+          "isSelected": false
+        },
+        {
+          "label": "Aventureiro",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "questionName": "Questao 40",
+      "alternative": [
+        {
+          "label": "Persuasivo",
+          "isSelected": false
+        },
+        {
+          "label": "Brincalhão",
+          "isSelected": false
+        },
+        {
+          "label": "Persistente",
+          "isSelected": true
+        },
+        {
+          "label": "Sereno",
           "isSelected": false
         }
       ]
