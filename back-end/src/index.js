@@ -16,7 +16,7 @@ const uri = `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@banco.sooca.mongodb.net
 connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
-})
+}).catch(error => handleError(error));
 
 app.use(cors());
 app.use(express.json());

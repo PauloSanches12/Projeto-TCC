@@ -2,13 +2,12 @@ const { model, Schema } = require('mongoose');
 
 const questionnaireSchema = new Schema({
     label: String,
-    isSelected: Boolean,
-    isResult: Boolean
+    isSelected: Boolean
 });
 
 const quizSchema = new Schema({
     questionName: String,
-    alternative: [questionnaireSchema]
+    alternatives: [questionnaireSchema]
 })
 
 const schema = new Schema({
