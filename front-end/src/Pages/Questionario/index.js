@@ -17,30 +17,52 @@ import { useState, useEffect } from "react";
 import api from '../../services/api';
 
 function Questionario() {
-  const [questoesSelecionadas, setQuestoesSelecionadas] = useState([])
-  const [questoes, setQuestoes] = useState('');
-  const [proximaQuestao, setProximaQuestao] = useState(0);
+  const [questionSelected, setQuestoesSelecionadas] = useState(null);
+  const [questoes, setQuestoes] = useState([]);
+  const [amountQuestion, setAmountQuestion] = useState(0);
 
-  // console.log(dados.quiz[0].alternative[0].label);
-  // console.log(questoesSelecionadas);
   useEffect(() => {
     api.get('questionnaires').then(result => {
       const response = result.data;
-      const [q1, q2, q3, q4] = response[0].quiz;
+      const responseQuestions = response[0].quiz;
 
+      console.log(responseQuestions[0]);
+      setQuestoesSelecionadas(responseQuestions[0]);
       setQuestoes(response[0].quiz);
-      setQuestoesSelecionadas([q1, q2, q3, q4])
     });
 
   }, []);
 
-  function handleClick() {
-    const proxima = proximaQuestao + 1;
-    if (proxima < questoes.length) {
-      setProximaQuestao(proxima);
-      console.log(proxima)
+  function handleAmountQuestion() {
+
+    if (amountQuestion < questoes.length) {
+      setAmountQuestion(() => amountQuestion + 1);
+      // console.log(amountQuestion)
     }
   }
+
+  function handleSelectedQuestion(questionId, alternativeId) {
+    setQuestoes((params) => {
+      const newParams = params.map((question) => {
+        if (questionId === question._id) {
+          console.log(questionId);
+          const newQuestions = question.alternatives.map(alternative => {
+            if (alternativeId === alternative._id) {
+              alternative.isSelected = true;
+              handleAmountQuestion();
+              return alternative
+            }
+            return alternative
+          })
+          return newQuestions;
+        }
+        return question;
+      })
+      return newParams;
+    })
+  }
+
+  useEffect(() => console.log(questoes), [questoes])
 
   return (
     <>
@@ -51,7 +73,7 @@ function Questionario() {
         </Header>
       </Section>
       <Container>
-        <Span>Questão {proximaQuestao + 1}/{questoes.length}</Span>
+        <Span>Questão {amountQuestion + 1}/{questoes.length}</Span>
         <Conteudo>
           <TextoSecundario>Selecione o adjetivo que melhor descreve você!</TextoSecundario>
           <ParagrafoSecundario>(Mesmo que você se identifique com mais de um, escolha o que mais se encaixa)</ParagrafoSecundario>
@@ -61,14 +83,17 @@ function Questionario() {
             <Li>
 
               {
-                questoesSelecionadas.map((x, index) => (
-                  <Button key={index} onClick={() => handleClick()}> {x.alternative[0].label}</Button>
-                ))
+                questionSelected !== null && (
+
+                  questionSelected.alternatives.map((alternative) => (
+                    <Button key={alternative._id} onClick={() => handleSelectedQuestion(questionSelected._id, alternative._id)}>{alternative.label}</Button>
+                  ))
+                )
               }
+
 
             </Li>
           </Ul>
-
 
         </Conteudo>
       </Container>

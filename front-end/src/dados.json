@@ -2,7 +2,7 @@
   "quiz": [
     {
       "questionName": "Questao 1",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Sociável",
           "isSelected": false
@@ -23,7 +23,7 @@
     },
     {
       "questionName": "Questao 2",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Convincente",
           "isSelected": false
@@ -44,7 +44,7 @@
     },
     {
       "questionName": "Questao 3",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Estimulante",
           "isSelected": false
@@ -65,7 +65,7 @@
     },
     {
       "questionName": "Questao 4",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Sensível",
           "isSelected": false
@@ -86,7 +86,7 @@
     },
     {
       "questionName": "Questao 5",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Planejador",
           "isSelected": false
@@ -107,7 +107,7 @@
     },
     {
       "questionName": "Questao 6",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Seguro",
           "isSelected": false
@@ -128,7 +128,7 @@
     },
     {
       "questionName": "Questao 7",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Franco",
           "isSelected": false
@@ -149,7 +149,7 @@
     },
     {
       "questionName": "Questao 8",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Fiel",
           "isSelected": false
@@ -170,7 +170,7 @@
     },
     {
       "questionName": "Questao 9",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Encantador",
           "isSelected": false
@@ -191,7 +191,7 @@
     },
     {
       "questionName": "Questao 10",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Alegre",
           "isSelected": false
@@ -212,7 +212,7 @@
     },
     {
       "questionName": "Questao 11",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Independente",
           "isSelected": false
@@ -233,7 +233,7 @@
     },
     {
       "questionName": "Questao 12",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Decidido",
           "isSelected": false
@@ -254,7 +254,7 @@
     },
     {
       "questionName": "Questao 13",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Ativo",
           "isSelected": false
@@ -275,7 +275,7 @@
     },
     {
       "questionName": "Questao 14",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Tolerante",
           "isSelected": false
@@ -296,7 +296,7 @@
     },
     {
       "questionName": "Questao 15",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Leal",
           "isSelected": false
@@ -317,7 +317,7 @@
     },
     {
       "questionName": "Questao 16",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Detalhista",
           "isSelected": false
@@ -338,7 +338,7 @@
     },
     {
       "questionName": "Questao 17",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Agradável",
           "isSelected": false
@@ -359,7 +359,7 @@
     },
     {
       "questionName": "Questao 18",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Vivaz",
           "isSelected": false
@@ -380,7 +380,7 @@
     },
     {
       "questionName": "Questao 19",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Metido",
           "isSelected": false
@@ -401,7 +401,7 @@
     },
     {
       "questionName": "Questao 20",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Rancoroso",
           "isSelected": false
@@ -422,7 +422,7 @@
     },
     {
       "questionName": "Questao 21",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Repetitivo",
           "isSelected": false
@@ -443,7 +443,7 @@
     },
     {
       "questionName": "Questao 22",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Medroso",
           "isSelected": false
@@ -464,7 +464,7 @@
     },
     {
       "questionName": "Questao 23",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Inseguro",
           "isSelected": false
@@ -485,7 +485,7 @@
     },
     {
       "questionName": "Questao 24",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Desligado",
           "isSelected": false
@@ -506,7 +506,7 @@
     },
     {
       "questionName": "Questao 25",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Cabeça dura",
           "isSelected": false
@@ -527,7 +527,7 @@
     },
     {
       "questionName": "Questao 26",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Cauteloso",
           "isSelected": false
@@ -548,7 +548,7 @@
     },
     {
       "questionName": "Questao 27",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Discutidor",
           "isSelected": false
@@ -569,7 +569,7 @@
     },
     {
       "questionName": "Questao 28",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Ingênuo",
           "isSelected": false
@@ -590,7 +590,7 @@
     },
     {
       "questionName": "Questao 29",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Retraído",
           "isSelected": false
@@ -611,7 +611,7 @@
     },
     {
       "questionName": "Questao 30",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Receoso",
           "isSelected": false
@@ -632,7 +632,7 @@
     },
     {
       "questionName": "Questao 31",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Mandão",
           "isSelected": false
@@ -653,7 +653,7 @@
     },
     {
       "questionName": "Questao 32",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Inconstante",
           "isSelected": false
@@ -674,7 +674,7 @@
     },
     {
       "questionName": "Questao 33",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Triste",
           "isSelected": false
@@ -695,7 +695,7 @@
     },
     {
       "questionName": "Questao 34",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Convencido",
           "isSelected": false
@@ -716,7 +716,7 @@
     },
     {
       "questionName": "Questao 35",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Tirânico",
           "isSelected": false
@@ -737,7 +737,7 @@
     },
     {
       "questionName": "Questao 36",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Desconfiado",
           "isSelected": false
@@ -758,7 +758,7 @@
     },
     {
       "questionName": "Questao 37",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Vingativo",
           "isSelected": false
@@ -779,7 +779,7 @@
     },
     {
       "questionName": "Questao 38",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Crítico",
           "isSelected": false
@@ -800,7 +800,7 @@
     },
     {
       "questionName": "Questao 39",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Adaptável",
           "isSelected": false
@@ -821,7 +821,7 @@
     },
     {
       "questionName": "Questao 40",
-      "alternative": [
+      "alternatives": [
         {
           "label": "Persuasivo",
           "isSelected": false
