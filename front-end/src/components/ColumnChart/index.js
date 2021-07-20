@@ -1,20 +1,20 @@
-import ReactApexChart  from 'react-apexcharts';
+import ReactApexChart from 'react-apexcharts';
 
 function ColumnChart() {
   const mokData = {
 
     series: [{
       name: 'Estabilidade',
-      data: [44, 55, 41, 67]
+      data: [44, 10, 36, 20]
     }, {
       name: 'Influência',
-      data: [13, 23, 20, 8]
+      data: [13, 23, 25, 15]
     }, {
       name: 'Cautela',
-      data: [11, 17, 15, 15]
+      data: [22, 32, 21, 30]
     }, {
       name: 'Dominância',
-      data: [21, 7, 25, 13]
+      data: [21, 35, 18, 35]
     }],
 
     options: {
@@ -59,7 +59,7 @@ function ColumnChart() {
       }
     },
 
-  
+
   };
   return (
     <ReactApexChart options={mokData.options} series={mokData.series} type="bar" height={350} />
